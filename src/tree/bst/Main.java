@@ -19,7 +19,11 @@ public class Main {
 
         System.out.println(bst);
 
-        bst.inOrder();
+        bst.preOrder();
+
+        System.out.println();
+
+        bst.postOrder();
 
         System.out.println(bst.calculateSize());
     }

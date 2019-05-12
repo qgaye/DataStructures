@@ -7,7 +7,7 @@ package sort;
  */
 public class QuickSort {
 
-    public void quickSort() {
+    public static void quickSort() {
 
     }
 }

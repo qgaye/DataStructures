@@ -97,7 +97,7 @@ public class ShortestPath {
         if (!hasPath(w)) {
             throw new IllegalArgumentException("No road from " + start + " to " + w);
         }
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        ArrayList<Integer> arrayList = path(w);
         for (int i = 0; i < arrayList.size(); i++) {
             System.out.print(arrayList.get(i));
             if (i == arrayList.size() - 1) {

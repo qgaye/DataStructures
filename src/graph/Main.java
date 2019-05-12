@@ -18,5 +18,8 @@ public class Main {
         DenseGraph denseGraph = new DenseGraph(7, false);
         InitGraph.init(denseGraph, arr);
         denseGraph.show();
+
+        ShortestPath shortestPath = new ShortestPath(sparseGraph, 0);
+        shortestPath.showPath(4);
     }
 }
